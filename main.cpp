@@ -111,7 +111,16 @@ void Hospital::mapDeallocation(){
         cout<<"Record are not deleted"<<endl;
     }
 }
+/*void Hospital::roomNUmber(){
+    cout<<"Enter patient card number: ";
+    getline(cin, cardNumber);
+    if(lionHospital.find(cardNumber)) {
+        char choice;
+        cout<<"block 1 room"
+        cout<<"Enter your choos: ";
+        cin>>choice;
 
+    }*/
 // Define the main function
 int main(){
     // Create an instance of Hospital
